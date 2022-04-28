@@ -19,4 +19,4 @@ Minimum version for cmake: 3.0
 
 ```> sh install.sh OU > ./install.sh```
 
-```> ./OpenGL```
+```> ./Main```
