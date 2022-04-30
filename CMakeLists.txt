@@ -9,6 +9,9 @@ project(${PROJECT_NAME})
 # Quand ce dernier aura finit paramètrer la lib, il rendra la main ici.
 add_subdirectory(lib_math)
 
+# Very important, otherwise your executable will be considered as a shared library by your OS
+set (CMAKE_CXX_FLAGS "-no-pie")
+
 set( SOURCES
     main.cpp
 )
