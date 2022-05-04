@@ -1,4 +1,4 @@
-# Link_with_cmake
+# Build_with_cmake
 
 ## Installation
 ### Install necessary libraries
